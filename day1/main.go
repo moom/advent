@@ -21,8 +21,8 @@ func main() {
 
 	s := bufio.NewScanner(f)
 	for s.Scan() {
-		c, err= strconv.Atoi(s.Text())
-		if c > p && p>0 {
+		c, err = strconv.Atoi(s.Text())
+		if c > p && p > 0 {
 			i++
 		}
 		p = c
